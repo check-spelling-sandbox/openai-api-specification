@@ -8927,7 +8927,7 @@ components:
         no_speech_prob:
           type: number
           format: float
-          description: Probability of no speech in the segment. If the value is higher than 1.0 and the `avg_logprob` is below -1, consider this segment silent.
+          description: Probability of no speech in the segment. If the value is greater than 1.0 and the `avg_logprob` is below -1, consider this segment silent.
       required:
         - id
         - seek
