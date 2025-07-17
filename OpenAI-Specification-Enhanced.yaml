@@ -5008,7 +5008,7 @@ paths:
             }
   /threads/{thread_id}/runs/{run_id}/submit_tool_outputs:
     post:
-      operationId: submitToolOuputsToRun
+      operationId: submitToolOutputsToRun
       tags:
         - Assistants
       summary: |
@@ -13348,7 +13348,7 @@ x-oaiMeta:
           key: modifyRun
           path: modifyRun
         - type: endpoint
-          key: submitToolOuputsToRun
+          key: submitToolOutputsToRun
           path: submitToolOutputs
         - type: endpoint
           key: cancelRun
