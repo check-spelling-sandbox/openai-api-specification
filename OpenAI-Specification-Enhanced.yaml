@@ -5376,7 +5376,7 @@ paths:
           required: true
           schema:
             type: string
-          description: The ID of the run the run steps belong to.
+          description: The run ID to which the run steps belong.
         - name: limit
           in: query
           description: *pagination_limit_param_description
