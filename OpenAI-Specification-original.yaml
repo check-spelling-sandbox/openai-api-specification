@@ -4286,7 +4286,7 @@ paths:
                   required: true
                   schema:
                       type: string
-                  description: The ID of the thread the run belongs to.
+                  description: The thread ID to which the run belongs.
                 - name: limit
                   in: query
                   description: *pagination_limit_param_description
