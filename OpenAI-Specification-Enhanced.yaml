@@ -5370,7 +5370,7 @@ paths:
           required: true
           schema:
             type: string
-          description: The ID of the thread the run and run steps belong to.
+          description: The thread ID to which the run and run steps belong.
         - name: run_id
           in: path
           required: true
