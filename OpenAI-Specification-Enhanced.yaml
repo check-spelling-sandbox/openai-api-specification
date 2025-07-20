@@ -10388,7 +10388,7 @@ components:
             $ref: "#/components/schemas/CreateMessageRequest"
           nullable: true
         tools:
-          description: Override the tools the assistant can use for this run. This is useful for modifying the behavior on a per-run basis.
+          description: Limit the assistant to these tools for the run. This is useful for modifying the behavior on a per-run basis.
           nullable: true
           type: array
           maxItems: 20
@@ -10562,7 +10562,7 @@ components:
           type: string
           nullable: true
         tools:
-          description: Override the tools the assistant can use for this run. This is useful for modifying the behavior on a per-run basis.
+          description: Limit the assistant to these tools for the run. This is useful for modifying the behavior on a per-run basis.
           nullable: true
           type: array
           maxItems: 20
