@@ -755,7 +755,7 @@
                     }
                 },
                 {
-                    "name": "Retrieves a model instance, providing basic information about the model such as the owner and permissioning.",
+                    "name": "Retrieves a model instance, providing basic information about the model such as the owner and permissions.",
                     "request": {
                         "method": "GET",
                         "header": [

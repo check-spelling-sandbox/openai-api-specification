@@ -2388,7 +2388,7 @@ paths:
       operationId: retrieveModel
       tags:
         - Models
-      summary: Retrieves a model instance, providing basic information about the model such as the owner and permissioning.
+      summary: Retrieves a model instance, providing basic information about the model such as the owner and permissions.
       parameters:
         - in: path
           name: model
